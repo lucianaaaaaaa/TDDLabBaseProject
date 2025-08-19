@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-08-19T03:25:32.000Z",
+      "message": "primer commit",
+      "url": "https://github.com/lucianaaaaaaa/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2025-08-19"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
