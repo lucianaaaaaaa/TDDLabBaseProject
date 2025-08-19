@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "fdf3ec5d0372bbae70d6f1bb613acfa0a599a66c",
     "author": "lucianaaaaaaa",
     "commit": {
       "date": "2025-08-19T03:25:32.000Z",
       "message": "primer commit",
-      "url": "https://github.com/lucianaaaaaaa/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/lucianaaaaaaa/TDDLabBaseProject/commit/fdf3ec5d0372bbae70d6f1bb613acfa0a599a66c"
     },
     "stats": {
       "total": 12,
       "additions": 11,
       "deletions": 1,
+      "date": "2025-08-19"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-08-19T03:28:15.000Z",
+      "message": "segundo",
+      "url": "https://github.com/lucianaaaaaaa/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 8,
+      "deletions": 3,
       "date": "2025-08-19"
     },
     "coverage": 100,

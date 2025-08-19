@@ -11,8 +11,13 @@ form.addEventListener("submit", (event) => {
 
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
-  const sum = sumar(firstNumber, secondNumber);
-  const product = multiplicar(firstNumber, secondNumber);
-  div.innerHTML = `La suma es: ${sum} y el producto es: ${product}`;
+  if (event.submitter.id === "sumar-button") {
+    const result = sumar(firstNumber, secondNumber);
+    div.textContent = `El resultado de la suma es: ${result}`;
+  } else if (event.submitter.id === "multiplicar-button") {
+    const result = multiplicar(firstNumber, secondNumber);
+    div.textContent = `El resultado de la multiplicación es: ${result}`;
+  }
+  
 
 });
